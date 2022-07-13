@@ -79,10 +79,22 @@ div {
     color: rgb(103, 103, 134);
 }
 
-button {
+.boton {
     background-color: transparent;
     border: none;
     margin-top: 30px;
     margin-bottom: 30px;
     color: white;
+    border-radius: 4px;
+    transition: 2s ease-in-out;
+}
+
+a {
+    color: gray;
+}
+
+.boton:hover {
+    background-color: lavender;
+    color: darkblue;
+    transform: scale(1.1);
 }
